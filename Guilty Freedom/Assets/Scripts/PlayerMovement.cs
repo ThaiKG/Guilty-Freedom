@@ -4,49 +4,52 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private Rigidbody rb;
-    private CapsuleCollider coll;
-    [SerializeField] float rot = 5;
-    private CharacterController controller;
-    private Vector3 playerVelocity;
-    private bool groundedPlayer;
+    public float speed = 25.0F;
+    public float jumpSpeed = 8.0F;
+    public float gravity = 20.0F;
+    private Vector3 moveDirection = Vector3.zero;
+    private float turner;
+    private float looker;
+    public float sensitivity = 5;
 
-    float horizontal = Input.GetAxis("Horizontal");
-    float vertical = Input.GetAxis("Vertical");
-    float speed = 5.0f;
-
-    private float jumpHeight = 1.0f;
-    private float gravityValue = -9.81f;
-
-    // Start is called before the first frame update
+    // Use t$$anonymous$$s for initialization
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
-        coll = GetComponent<CapsuleCollider>();
-        controller = gameObject.AddComponent<CharacterController>();
+
     }
 
+    // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(horizontal, 0, vertical) * speed * Time.deltaTime;
+        CharacterController controller = GetComponent<CharacterController>();
+        // is the controller on the ground?
+        if (controller.isGrounded)
+        {
+            //Feed moveDirection with input.
+            moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            moveDirection = transform.TransformDirection(moveDirection);
+            //Multiply it by speed.
+            moveDirection *= speed;
+            //Jumping
+            if (Input.GetButton("Jump"))
+                moveDirection.y = jumpSpeed;
 
-        //groundedPlayer = controller.isGrounded;
-        //if (groundedPlayer && playerVelocity.y < 0)
-        //{
-        //    playerVelocity.y = 0f;
-        //}
-        //if (move != Vector3.zero)
-        //{
-        //    gameObject.transform.forward = move;
-        //}
-
-        //// Changes the height position of the player..
-        //if (Input.GetButtonDown("Jump") && groundedPlayer)
-        //{
-        //    playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
-        //}
-
-        //playerVelocity.y += gravityValue * Time.deltaTime;
-        //controller.Move(playerVelocity * Time.deltaTime);
+        }
+        turner = Input.GetAxis("Mouse X") * sensitivity;
+        looker = -Input.GetAxis("Mouse Y") * sensitivity;
+        if (turner != 0)
+        {
+            //Code for action on mouse moving right
+            transform.eulerAngles += new Vector3(0, turner, 0);
+        }
+        if (looker != 0)
+        {
+            //Code for action on mouse moving right
+            transform.eulerAngles += new Vector3(looker, 0, 0);
+        }
+        //Applying gravity to the controller
+        moveDirection.y -= gravity * Time.deltaTime;
+        //Making the character move
+        controller.Move(moveDirection * Time.deltaTime);
     }
 }
