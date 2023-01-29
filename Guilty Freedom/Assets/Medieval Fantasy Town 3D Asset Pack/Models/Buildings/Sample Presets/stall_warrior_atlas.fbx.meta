@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 4ae3de53c255f9b40b110a5977ab8404
+timeCreated: 1471941653
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Banner
+    100002: Extra_sword
+    100004: Front_table
+    100006: Front_table.001
+    100008: Front_table.002
+    100010: Front_table.003
+    100012: Front_table.004
+    100014: Front_table.005
+    100016: Front_table.006
+    100018: Mace_stand
+    100020: Mace_stand.001
+    100022: Shop_frame
+    100024: //RootNode
+    100026: Sword_crate
+    100028: Sword_rack
+    100030: Weapons_rack2
+    400000: Banner
+    400002: Extra_sword
+    400004: Front_table
+    400006: Front_table.001
+    400008: Front_table.002
+    400010: Front_table.003
+    400012: Front_table.004
+    400014: Front_table.005
+    400016: Front_table.006
+    400018: Mace_stand
+    400020: Mace_stand.001
+    400022: Shop_frame
+    400024: //RootNode
+    400026: Sword_crate
+    400028: Sword_rack
+    400030: Weapons_rack2
+    2300000: Banner
+    2300002: Extra_sword
+    2300004: Front_table
+    2300006: Front_table.001
+    2300008: Front_table.002
+    2300010: Front_table.003
+    2300012: Front_table.004
+    2300014: Front_table.005
+    2300016: Front_table.006
+    2300018: Mace_stand
+    2300020: Mace_stand.001
+    2300022: Shop_frame
+    2300024: Sword_crate
+    2300026: Sword_rack
+    2300028: Weapons_rack2
+    3300000: Banner
+    3300002: Extra_sword
+    3300004: Front_table
+    3300006: Front_table.001
+    3300008: Front_table.002
+    3300010: Front_table.003
+    3300012: Front_table.004
+    3300014: Front_table.005
+    3300016: Front_table.006
+    3300018: Mace_stand
+    3300020: Mace_stand.001
+    3300022: Shop_frame
+    3300024: Sword_crate
+    3300026: Sword_rack
+    3300028: Weapons_rack2
+    4300000: Front_table.006
+    4300002: Front_table.005
+    4300004: Front_table.004
+    4300006: Front_table.003
+    4300008: Front_table.002
+    4300010: Front_table.001
+    4300012: Mace_stand.001
+    4300014: Extra_sword
+    4300016: Weapons_rack2
+    4300018: Mace_stand
+    4300020: Sword_rack
+    4300022: Sword_crate
+    4300024: Banner
+    4300026: Front_table
+    4300028: Shop_frame
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 80f76bf841bc2ae4faed090bf21997ce
+timeCreated: 1471941636
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Aroow_crate
+    100002: Barrel
+    100004: Blowpipe1
+    100006: Blowpipe2
+    100008: Blowpipe3
+    100010: Bow1
+    100012: Bow2
+    100014: Bow3
+    100016: Bow4
+    100018: Bow5
+    100020: Bow6
+    100022: Bow_rack
+    100024: Cage
+    100026: Closedtrap1
+    100028: Closedtrap2
+    100030: Crossbow1
+    100032: Crossbow2
+    100034: Hunter_shop_table
+    100036: Hunter_shop_tent
+    100038: LegendBow1
+    100040: LegendBow2
+    100042: Opentrap1
+    100044: Quiver1
+    100046: Quiver2
+    100048: Quiver3
+    100050: Rack_pelt
+    100052: //RootNode
+    100054: Straw_trap
+    400000: Aroow_crate
+    400002: Barrel
+    400004: Blowpipe1
+    400006: Blowpipe2
+    400008: Blowpipe3
+    400010: Bow1
+    400012: Bow2
+    400014: Bow3
+    400016: Bow4
+    400018: Bow5
+    400020: Bow6
+    400022: Bow_rack
+    400024: Cage
+    400026: Closedtrap1
+    400028: Closedtrap2
+    400030: Crossbow1
+    400032: Crossbow2
+    400034: Hunter_shop_table
+    400036: Hunter_shop_tent
+    400038: LegendBow1
+    400040: LegendBow2
+    400042: Opentrap1
+    400044: Quiver1
+    400046: Quiver2
+    400048: Quiver3
+    400050: Rack_pelt
+    400052: //RootNode
+    400054: Straw_trap
+    2300000: Aroow_crate
+    2300002: Barrel
+    2300004: Blowpipe1
+    2300006: Blowpipe2
+    2300008: Blowpipe3
+    2300010: Bow1
+    2300012: Bow2
+    2300014: Bow3
+    2300016: Bow4
+    2300018: Bow5
+    2300020: Bow6
+    2300022: Bow_rack
+    2300024: Cage
+    2300026: Closedtrap1
+    2300028: Closedtrap2
+    2300030: Crossbow1
+    2300032: Crossbow2
+    2300034: Hunter_shop_table
+    2300036: Hunter_shop_tent
+    2300038: LegendBow1
+    2300040: LegendBow2
+    2300042: Opentrap1
+    2300044: Quiver1
+    2300046: Quiver2
+    2300048: Quiver3
+    2300050: Rack_pelt
+    2300052: Straw_trap
+    3300000: Aroow_crate
+    3300002: Barrel
+    3300004: Blowpipe1
+    3300006: Blowpipe2
+    3300008: Blowpipe3
+    3300010: Bow1
+    3300012: Bow2
+    3300014: Bow3
+    3300016: Bow4
+    3300018: Bow5
+    3300020: Bow6
+    3300022: Bow_rack
+    3300024: Cage
+    3300026: Closedtrap1
+    3300028: Closedtrap2
+    3300030: Crossbow1
+    3300032: Crossbow2
+    3300034: Hunter_shop_table
+    3300036: Hunter_shop_tent
+    3300038: LegendBow1
+    3300040: LegendBow2
+    3300042: Opentrap1
+    3300044: Quiver1
+    3300046: Quiver2
+    3300048: Quiver3
+    3300050: Rack_pelt
+    3300052: Straw_trap
+    4300000: Closedtrap2
+    4300002: Opentrap1
+    4300004: Hunter_shop_table
+    4300006: Cage
+    4300008: Barrel
+    4300010: Quiver1
+    4300012: Straw_trap
+    4300014: Crossbow2
+    4300016: Rack_pelt
+    4300018: LegendBow1
+    4300020: Bow_rack
+    4300022: Bow5
+    4300024: Bow6
+    4300026: Bow4
+    4300028: Bow3
+    4300030: Bow2
+    4300032: Bow1
+    4300034: LegendBow2
+    4300036: Blowpipe1
+    4300038: Blowpipe2
+    4300040: Blowpipe3
+    4300042: Crossbow1
+    4300044: Closedtrap1
+    4300046: Quiver3
+    4300048: Quiver2
+    4300050: Aroow_crate
+    4300052: Hunter_shop_tent
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

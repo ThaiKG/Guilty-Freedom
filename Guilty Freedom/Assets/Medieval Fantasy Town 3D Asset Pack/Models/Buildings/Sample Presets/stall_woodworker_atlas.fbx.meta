@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: 4d81f12d3b5c4fc478419a66f91317f1
+timeCreated: 1471941659
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: woodworker_log1
+    100004: woodworker_log2
+    100006: woodworker_log3
+    100008: woodworker_log4
+    100010: woodworker_logstand
+    100012: woodworker_plank1
+    100014: woodworker_plank2
+    100016: woodworker_plank3
+    100018: woodworker_plank4
+    100020: woodworker_saw
+    100022: woodworker_shavings1
+    100024: woodworker_shavings2
+    100026: woodworker_shavings3
+    100028: woodworker_shavings4
+    100030: woodworker_stumpaxe
+    100032: woodworker_stumpaxe.001
+    100034: woodworker_table
+    100036: woodworker_tent
+    100038: woodworker_wheel
+    100040: woodworker_workbench
+    400000: //RootNode
+    400002: woodworker_log1
+    400004: woodworker_log2
+    400006: woodworker_log3
+    400008: woodworker_log4
+    400010: woodworker_logstand
+    400012: woodworker_plank1
+    400014: woodworker_plank2
+    400016: woodworker_plank3
+    400018: woodworker_plank4
+    400020: woodworker_saw
+    400022: woodworker_shavings1
+    400024: woodworker_shavings2
+    400026: woodworker_shavings3
+    400028: woodworker_shavings4
+    400030: woodworker_stumpaxe
+    400032: woodworker_stumpaxe.001
+    400034: woodworker_table
+    400036: woodworker_tent
+    400038: woodworker_wheel
+    400040: woodworker_workbench
+    2300000: woodworker_log1
+    2300002: woodworker_log2
+    2300004: woodworker_log3
+    2300006: woodworker_log4
+    2300008: woodworker_logstand
+    2300010: woodworker_plank1
+    2300012: woodworker_plank2
+    2300014: woodworker_plank3
+    2300016: woodworker_plank4
+    2300018: woodworker_saw
+    2300020: woodworker_shavings1
+    2300022: woodworker_shavings2
+    2300024: woodworker_shavings3
+    2300026: woodworker_shavings4
+    2300028: woodworker_stumpaxe
+    2300030: woodworker_stumpaxe.001
+    2300032: woodworker_table
+    2300034: woodworker_tent
+    2300036: woodworker_wheel
+    2300038: woodworker_workbench
+    3300000: woodworker_log1
+    3300002: woodworker_log2
+    3300004: woodworker_log3
+    3300006: woodworker_log4
+    3300008: woodworker_logstand
+    3300010: woodworker_plank1
+    3300012: woodworker_plank2
+    3300014: woodworker_plank3
+    3300016: woodworker_plank4
+    3300018: woodworker_saw
+    3300020: woodworker_shavings1
+    3300022: woodworker_shavings2
+    3300024: woodworker_shavings3
+    3300026: woodworker_shavings4
+    3300028: woodworker_stumpaxe
+    3300030: woodworker_stumpaxe.001
+    3300032: woodworker_table
+    3300034: woodworker_tent
+    3300036: woodworker_wheel
+    3300038: woodworker_workbench
+    4300000: woodworker_stumpaxe.001
+    4300002: woodworker_tent
+    4300004: woodworker_log3
+    4300006: woodworker_log2
+    4300008: woodworker_log1
+    4300010: woodworker_log4
+    4300012: woodworker_saw
+    4300014: woodworker_logstand
+    4300016: woodworker_workbench
+    4300018: woodworker_table
+    4300020: woodworker_plank1
+    4300022: woodworker_plank2
+    4300024: woodworker_plank3
+    4300026: woodworker_plank4
+    4300028: woodworker_shavings1
+    4300030: woodworker_shavings2
+    4300032: woodworker_shavings3
+    4300034: woodworker_shavings4
+    4300036: woodworker_stumpaxe
+    4300038: woodworker_wheel
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: 04f3f7a672b65234b9c153857bcc2746
+timeCreated: 1471941625
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Anvil1
+    100002: Anvil1.001
+    100004: Bellow
+    100006: Blacksmith_tent1
+    100008: Bucket_of_water1
+    100010: Cooling_basin1
+    100012: cuirass
+    100014: Display_table1
+    100016: Furnace2
+    100018: helmet
+    100020: iron ingot
+    100022: iron ingot.001
+    100024: iron ingot.002
+    100026: leather
+    100028: PoleAxe1
+    100030: Sowrd2
+    100032: Spear1
+    100034: Spear1_head
+    100036: //RootNode
+    100038: Sword1
+    100040: Sword1.001
+    100042: Tong_rack1
+    100044: Tongs
+    100046: Tongs.001
+    100048: Tongs.002
+    100050: Weapons_rack1
+    100052: Work_table1
+    400000: Anvil1
+    400002: Anvil1.001
+    400004: Bellow
+    400006: Blacksmith_tent1
+    400008: Bucket_of_water1
+    400010: Cooling_basin1
+    400012: cuirass
+    400014: Display_table1
+    400016: Furnace2
+    400018: helmet
+    400020: iron ingot
+    400022: iron ingot.001
+    400024: iron ingot.002
+    400026: leather
+    400028: PoleAxe1
+    400030: Sowrd2
+    400032: Spear1
+    400034: Spear1_head
+    400036: //RootNode
+    400038: Sword1
+    400040: Sword1.001
+    400042: Tong_rack1
+    400044: Tongs
+    400046: Tongs.001
+    400048: Tongs.002
+    400050: Weapons_rack1
+    400052: Work_table1
+    2300000: Anvil1
+    2300002: Anvil1.001
+    2300004: Bellow
+    2300006: Blacksmith_tent1
+    2300008: Bucket_of_water1
+    2300010: Cooling_basin1
+    2300012: cuirass
+    2300014: Display_table1
+    2300016: Furnace2
+    2300018: helmet
+    2300020: iron ingot
+    2300022: iron ingot.001
+    2300024: iron ingot.002
+    2300026: leather
+    2300028: PoleAxe1
+    2300030: Sowrd2
+    2300032: Spear1
+    2300034: Spear1_head
+    2300036: Sword1
+    2300038: Sword1.001
+    2300040: Tong_rack1
+    2300042: Tongs
+    2300044: Tongs.001
+    2300046: Tongs.002
+    2300048: Weapons_rack1
+    2300050: Work_table1
+    3300000: Anvil1
+    3300002: Anvil1.001
+    3300004: Bellow
+    3300006: Blacksmith_tent1
+    3300008: Bucket_of_water1
+    3300010: Cooling_basin1
+    3300012: cuirass
+    3300014: Display_table1
+    3300016: Furnace2
+    3300018: helmet
+    3300020: iron ingot
+    3300022: iron ingot.001
+    3300024: iron ingot.002
+    3300026: leather
+    3300028: PoleAxe1
+    3300030: Sowrd2
+    3300032: Spear1
+    3300034: Spear1_head
+    3300036: Sword1
+    3300038: Sword1.001
+    3300040: Tong_rack1
+    3300042: Tongs
+    3300044: Tongs.001
+    3300046: Tongs.002
+    3300048: Weapons_rack1
+    3300050: Work_table1
+    4300000: Tongs.002
+    4300002: Tongs.001
+    4300004: Tongs
+    4300006: Spear1_head
+    4300008: Spear1
+    4300010: PoleAxe1
+    4300012: Sowrd2
+    4300014: Sword1
+    4300016: cuirass
+    4300018: helmet
+    4300020: iron ingot.001
+    4300022: iron ingot
+    4300024: iron ingot.002
+    4300026: leather
+    4300028: Anvil1.001
+    4300030: Sword1.001
+    4300032: Tong_rack1
+    4300034: Work_table1
+    4300036: Weapons_rack1
+    4300038: Furnace2
+    4300040: Bellow
+    4300042: Display_table1
+    4300044: Cooling_basin1
+    4300046: Bucket_of_water1
+    4300048: Blacksmith_tent1
+    4300050: Anvil1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 1edc2ae028b582341b8374144db00ca2
+timeCreated: 1471941642
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Book
+    100002: CrystalBall
+    100004: GemStone
+    100006: Mage_crest
+    100008: Mage_round_table
+    100010: Mage_shelf
+    100012: Mage_stave_bowl
+    100014: Mage_stave_rack
+    100016: Mage_stave_rack.001
+    100018: Mage_stave_rack.002
+    100020: Mage_table
+    100022: Mage_tent
+    100024: OrganicCrystalBall
+    100026: Scroll
+    100028: Scroll1
+    100030: ScrollContainer
+    100032: Staff1
+    100034: Staff2
+    100036: Staff3
+    100038: //RootNode
+    100040: TableTop_Staff
+    100042: TableTop_Staff1
+    100044: Tabletop_StaffStand
+    100046: Wand01
+    100048: Wand02
+    100050: Wand03
+    100052: Wand04
+    100054: WandType2
+    400000: Book
+    400002: CrystalBall
+    400004: GemStone
+    400006: Mage_crest
+    400008: Mage_round_table
+    400010: Mage_shelf
+    400012: Mage_stave_bowl
+    400014: Mage_stave_rack
+    400016: Mage_stave_rack.001
+    400018: Mage_stave_rack.002
+    400020: Mage_table
+    400022: Mage_tent
+    400024: OrganicCrystalBall
+    400026: Scroll
+    400028: Scroll1
+    400030: ScrollContainer
+    400032: Staff1
+    400034: Staff2
+    400036: Staff3
+    400038: //RootNode
+    400040: TableTop_Staff
+    400042: TableTop_Staff1
+    400044: Tabletop_StaffStand
+    400046: Wand01
+    400048: Wand02
+    400050: Wand03
+    400052: Wand04
+    400054: WandType2
+    2300000: Book
+    2300002: CrystalBall
+    2300004: GemStone
+    2300006: Mage_crest
+    2300008: Mage_round_table
+    2300010: Mage_shelf
+    2300012: Mage_stave_bowl
+    2300014: Mage_stave_rack
+    2300016: Mage_stave_rack.001
+    2300018: Mage_stave_rack.002
+    2300020: Mage_table
+    2300022: Mage_tent
+    2300024: OrganicCrystalBall
+    2300026: Scroll
+    2300028: Scroll1
+    2300030: ScrollContainer
+    2300032: Staff1
+    2300034: Staff2
+    2300036: Staff3
+    2300038: TableTop_Staff
+    2300040: TableTop_Staff1
+    2300042: Tabletop_StaffStand
+    2300044: Wand01
+    2300046: Wand02
+    2300048: Wand03
+    2300050: Wand04
+    2300052: WandType2
+    3300000: Book
+    3300002: CrystalBall
+    3300004: GemStone
+    3300006: Mage_crest
+    3300008: Mage_round_table
+    3300010: Mage_shelf
+    3300012: Mage_stave_bowl
+    3300014: Mage_stave_rack
+    3300016: Mage_stave_rack.001
+    3300018: Mage_stave_rack.002
+    3300020: Mage_table
+    3300022: Mage_tent
+    3300024: OrganicCrystalBall
+    3300026: Scroll
+    3300028: Scroll1
+    3300030: ScrollContainer
+    3300032: Staff1
+    3300034: Staff2
+    3300036: Staff3
+    3300038: TableTop_Staff
+    3300040: TableTop_Staff1
+    3300042: Tabletop_StaffStand
+    3300044: Wand01
+    3300046: Wand02
+    3300048: Wand03
+    3300050: Wand04
+    3300052: WandType2
+    4300000: Mage_stave_rack.002
+    4300002: Mage_stave_rack.001
+    4300004: TableTop_Staff1
+    4300006: GemStone
+    4300008: Mage_stave_rack
+    4300010: Mage_round_table
+    4300012: Mage_table
+    4300014: Mage_stave_bowl
+    4300016: Mage_crest
+    4300018: Wand03
+    4300020: WandType2
+    4300022: Wand04
+    4300024: Wand02
+    4300026: Wand01
+    4300028: Tabletop_StaffStand
+    4300030: TableTop_Staff
+    4300032: Staff3
+    4300034: Staff2
+    4300036: Staff1
+    4300038: Scroll1
+    4300040: Scroll
+    4300042: OrganicCrystalBall
+    4300044: CrystalBall
+    4300046: Book
+    4300048: ScrollContainer
+    4300050: Mage_tent
+    4300052: Mage_shelf
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
