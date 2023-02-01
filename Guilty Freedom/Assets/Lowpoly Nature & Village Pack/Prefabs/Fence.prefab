@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 4914743199281482}
   - component: {fileID: 33480965478071268}
   - component: {fileID: 23016548876682228}
-  - component: {fileID: 208057426439961759}
+  - component: {fileID: 5459212531217549068}
   m_Layer: 0
   m_Name: Cube.001
   m_TagString: Untagged
@@ -135,7 +135,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &208057426439961759
+--- !u!64 &5459212531217549068
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 4433352479391144}
   - component: {fileID: 33074579123967856}
   - component: {fileID: 23510914875807704}
-  - component: {fileID: 765950003737161194}
+  - component: {fileID: 333377739152855676}
   m_Layer: 0
   m_Name: Sphere.003
   m_TagString: Untagged
@@ -233,7 +233,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &765950003737161194
+--- !u!64 &333377739152855676
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
