@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private float moveSpeed;
     public float walkSpeed;
     public float sprintSpeed;
+    public float wallrunSpeed;
 
     public float groundDrag;
 
@@ -112,8 +113,14 @@ public class PlayerMovement : MonoBehaviour
             moveSpeed = wallRunSpeed;
         }
 
+        if(grounded && Input.GetKey(sprintKey))
+        {
+            state = MovementState.sprinting;
+            moveSpeed = sprintSpeed;
+        }
+
         // Mode - Walking
-        if (grounded)
+        else if (grounded)
         {
             state = MovementState.walking;
             moveSpeed = walkSpeed;
