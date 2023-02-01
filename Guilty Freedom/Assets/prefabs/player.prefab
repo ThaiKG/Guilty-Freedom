@@ -91,7 +91,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451257033204346090}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 2e35adb3e88114079bac9a1f03dc64e3, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
@@ -171,6 +171,7 @@ GameObject:
   - component: {fileID: 1451257034174835680}
   - component: {fileID: 1451257034174835683}
   - component: {fileID: 1451257034174835682}
+  - component: {fileID: 2118235388}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -224,17 +225,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2837c250deb48874a9d0716340a0a3c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
+  walkSpeed: 7
+  sprintSpeed: 10
+  wallrunSpeed: 8.5
   groundDrag: 5
   jumpForce: 17
   jumpCooldown: 0.25
   airMultiplier: 0.4
-  walkSpeed: 0
-  sprintSpeed: 0
+  wallRunSpeed: 0
   jumpKey: 32
+  sprintKey: 304
   playerHeight: 2
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
   maxSlopeAng: 45
+  orientation: {fileID: 1451257034026122333}
+  state: 0
+  wallrunning: 0
+--- !u!114 &2118235388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451257034174835681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a34824ee77cc43d7871a0e8a4724271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whatIsWall:
+    serializedVersion: 2
+    m_Bits: 64
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  wallRunForce: 200
+  wallClimbSpeed: 0
+  maxWallRunTime: 1.5
+  upwardsRunKey: 304
+  downwardsRunKey: 306
+  wallCheckDistance: 0.7
+  minJumpHeight: 2
   orientation: {fileID: 1451257034026122333}
