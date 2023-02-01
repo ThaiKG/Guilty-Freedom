@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
-    public float moveSpeed;
+    private float moveSpeed;
+    public float walkSpeed;
+    public float sprintSpeed;
 
     public float groundDrag;
 
@@ -16,11 +18,9 @@ public class PlayerMovement : MonoBehaviour
     bool readyToJump;
     public float wallRunSpeed;
 
-    [HideInInspector] public float walkSpeed;
-    [HideInInspector] public float sprintSpeed;
-
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
+    public KeyCode sprintKey = KeyCode.LeftShift;
 
     [Header("Ground Check")]
     public float playerHeight;
@@ -45,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
     public enum MovementState
     {
         walking,
+        sprinting,
         wallrunning,
         air
     }
