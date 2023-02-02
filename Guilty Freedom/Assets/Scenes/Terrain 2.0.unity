@@ -5808,6 +5808,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4495134089620864, guid: eb895d0397b02ff43a9a4b9142fc7ad8, type: 3}
   m_PrefabInstance: {fileID: 120767603}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &300567453 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1451257034174835681, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+  m_PrefabInstance: {fileID: 2034108580}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &300567458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300567453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c35dcf0b46e621843a12732605c61632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 951735402}
 --- !u!1 &304446746 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1712148364640842, guid: a58c8bcd22bee1f4cb166841254a2ea4, type: 3}
@@ -18710,7 +18728,7 @@ GameObject:
   - component: {fileID: 892263041}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: npc
+  m_TagString: npc1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18741,8 +18759,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.80620277, y: 1.7794943, z: 0.65728915}
-  m_Center: {x: 0.038177174, y: -0.15030369, z: -0.17135511}
+  m_Size: {x: 1.7842703, y: 1.7794943, z: 1.1615098}
+  m_Center: {x: 0.009139696, y: -0.15030369, z: 0.08075603}
 --- !u!23 &892263042
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19740,10 +19758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1303774173}
   lines:
-  - Teddy Gay
-  - ur mom gay
-  - idk
-  - ez
+  - 
   textSpeed: 0.1
   idx: 0
 --- !u!1 &952404132 stripped
