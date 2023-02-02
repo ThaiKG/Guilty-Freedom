@@ -1773,6 +1773,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 547913ca2f2ef544f941992d3e31c854, type: 3}
+<<<<<<< Updated upstream
+=======
+--- !u!1 &2118235384 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1451257034174835681, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+  m_PrefabInstance: {fileID: 1451257032946304981}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2118235388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118235384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a34824ee77cc43d7871a0e8a4724271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whatIsWall:
+    serializedVersion: 2
+    m_Bits: 64
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  wallRunForce: 200
+  wallClimbSpeed: 3
+  maxWallRunTime: 1.5
+  upwardsRunKey: 304
+  downwardsRunKey: 306
+  wallCheckDistance: 0.7
+  minJumpHeight: 2
+  orientation: {fileID: 1080343432}
+>>>>>>> Stashed changes
 --- !u!1001 &1451257032946304981
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1828,6 +1862,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 1451257034174835682, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+      propertyPath: walkSpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451257034174835682, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+      propertyPath: sprintSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451257034174835682, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+      propertyPath: wallrunning
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451257034174835682, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+      propertyPath: wallrunSpeed
+      value: 8.5
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
 --- !u!1001 &5642415535734130554
