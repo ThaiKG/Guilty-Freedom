@@ -7,6 +7,7 @@ TagManager:
   - npc
   - player
   - npc1
+  - bottom
   layers:
   - Default
   - TransparentFX

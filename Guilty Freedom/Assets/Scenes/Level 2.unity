@@ -588,7 +588,7 @@ GameObject:
   - component: {fileID: 633663738}
   m_Layer: 0
   m_Name: bottom
-  m_TagString: Untagged
+  m_TagString: bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1390,6 +1390,23 @@ PrefabInstance:
       objectReference: {fileID: 1767310102}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce8fffcba88f047a7bfbed4cc2c99b99, type: 3}
+--- !u!1 &1182013423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1451257034174835681, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+  m_PrefabInstance: {fileID: 1879369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1182013424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182013423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72e0b46a5289ba43bc20dcb8811c51a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1317003156
 GameObject:
   m_ObjectHideFlags: 0
