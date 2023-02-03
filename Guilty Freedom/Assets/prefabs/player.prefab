@@ -232,7 +232,7 @@ MonoBehaviour:
   jumpForce: 17
   jumpCooldown: 0.25
   airMultiplier: 0.4
-  wallRunSpeed: 0
+  wallRunSpeed: 7
   jumpKey: 32
   sprintKey: 304
   playerHeight: 2
@@ -262,10 +262,16 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   wallRunForce: 200
-  wallClimbSpeed: 0
-  maxWallRunTime: 1.5
+  wallClimbSpeed: 3
+  wallJumpUpForce: 17
+  wallJumpSideForce: 40
+  maxWallRunTime: 1
+  jumpKey: 32
   upwardsRunKey: 304
   downwardsRunKey: 306
   wallCheckDistance: 0.7
   minJumpHeight: 2
+  exitWallTime: 0.2
+  useGravity: 1
+  gravityCounterForce: 6.5
   orientation: {fileID: 1451257034026122333}
