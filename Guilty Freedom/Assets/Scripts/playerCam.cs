@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
+//using DG.Tweening;
 
 public class playerCam : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class playerCam : MonoBehaviour
     public float sensY;
 
     public Transform orientation;
-    public Transform cameraHolder;
+    //public Transform cameraHolder;
 
     float xRot;
     float yRot;
@@ -32,18 +32,18 @@ public class playerCam : MonoBehaviour
         xRot -= mouseY;
         xRot = Mathf.Clamp(xRot, -90f, 90f);
 
-        cameraHolder.rotation = Quaternion.Euler(xRot, yRot, 0);
+        //cameraHolder.rotation = Quaternion.Euler(xRot, yRot, 0);
         orientation.rotation = Quaternion.Euler(0, yRot, 0);
     }
 
-    public void DoFov(float endValue)
-    {
-        GetComponent<Camera>().DOFieldOfView(endValue, 0.25f);
-    }
+    //public void DoFov(float endValue)
+    //{
+    //    GetComponent<Camera>().DOFieldOfView(endValue, 0.25f);
+    //}
 
-    public void DoTilt(float zTilt)
-    {
-        transform.DOLocalRotate(new Vector3(0, 0, zTilt), 0.25f);
-    }
+    //public void DoTilt(float zTilt)
+    //{
+    //    transform.DOLocalRotate(new Vector3(0, 0, zTilt), 0.25f);
+    //}
 
 }
