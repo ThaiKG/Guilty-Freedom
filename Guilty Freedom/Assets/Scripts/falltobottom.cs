@@ -17,8 +17,8 @@ public class falltobottom : MonoBehaviour
         
     }
     void OnCollisionEnter(Collision other) {
-        if (other.gameObject.CompareTag("bottom")) {
-            SceneManager.LoadScene(1);
+        if (other.gameObject.CompareTag("player")) {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
