@@ -262,9 +262,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   wallRunForce: 200
-  wallClimbSpeed: 3
   wallJumpUpForce: 17
   wallJumpSideForce: 40
+  wallClimbSpeed: 3
   maxWallRunTime: 1
   jumpKey: 32
   upwardsRunKey: 304
@@ -273,5 +273,6 @@ MonoBehaviour:
   minJumpHeight: 2
   exitWallTime: 0.2
   useGravity: 1
-  gravityCounterForce: 6.5
+  gravityCounterForce: 20
   orientation: {fileID: 1451257034026122333}
+  cam: {fileID: 0}
