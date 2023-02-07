@@ -8,9 +8,9 @@ public class wallRunning : MonoBehaviour
     public LayerMask whatIsWall;
     public LayerMask whatIsGround;
     public float wallRunForce;
-    public float wallClimbSpeed;
     public float wallJumpUpForce;
     public float wallJumpSideForce;
+    public float wallClimbSpeed;
     public float maxWallRunTime;
     private float wallRunTimer;
 
@@ -42,7 +42,7 @@ public class wallRunning : MonoBehaviour
 
     [Header("References")]
     public Transform orientation;
-    //public playerCam cam;
+    public playerCam cam;
     private PlayerMovement pm;
     private Rigidbody rb;
 
@@ -100,10 +100,8 @@ public class wallRunning : MonoBehaviour
                 exitWallTimer = exitWallTime;
             }
 
-            if (Input.GetKeyDown(jumpKey))
-            {
-                WallJump();
-            }
+            // wall jump
+            if (Input.GetKeyDown(jumpKey)) WallJump();
         }
 
         // State 2 - Exiting
@@ -119,30 +117,26 @@ public class wallRunning : MonoBehaviour
                 exitingWall = false;
         }
 
-
         // State 3 - None
         else
         {
             if (pm.wallrunning)
                 StopWallRun();
         }
-
     }
 
     private void StartWallRun()
     {
         pm.wallrunning = true;
+
         wallRunTimer = maxWallRunTime;
+
         rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
-        //cam.DoFov(90f);
-        //if (wallLeft)
-        //{
-        //    cam.DoTilt(-5f);
-        //}
-        //if (wallRight)
-        //{
-        //    cam.DoTilt(5f);
-        //}
+
+        // apply camera effects
+        cam.DoFov(90f);
+        if (wallLeft) cam.DoTilt(-5f);
+        if (wallRight) cam.DoTilt(5f);
     }
 
     private void WallRunningMovement()
@@ -177,8 +171,10 @@ public class wallRunning : MonoBehaviour
     private void StopWallRun()
     {
         pm.wallrunning = false;
-        //cam.DoFov(80f);
-        //cam.DoTilt(0f);
+
+        // reset camera effects
+        cam.DoFov(80f);
+        cam.DoTilt(0f);
     }
 
     private void WallJump()

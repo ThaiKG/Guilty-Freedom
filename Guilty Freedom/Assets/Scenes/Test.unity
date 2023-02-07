@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2118235388, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 124891159}
+    - target: {fileID: 2118235388, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+      propertyPath: gravityCounterForce
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 1451257034174835680, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -240,11 +248,35 @@ PrefabInstance:
       value: CamHolder
       objectReference: {fileID: 0}
     - target: {fileID: 5642415535495409467, guid: ce8fffcba88f047a7bfbed4cc2c99b99, type: 3}
+      propertyPath: camHolder
+      value: 
+      objectReference: {fileID: 597014354}
+    - target: {fileID: 5642415535495409467, guid: ce8fffcba88f047a7bfbed4cc2c99b99, type: 3}
       propertyPath: orientation
       value: 
       objectReference: {fileID: 1961234599}
+    - target: {fileID: 5642415535495409467, guid: ce8fffcba88f047a7bfbed4cc2c99b99, type: 3}
+      propertyPath: cameraHolder
+      value: 
+      objectReference: {fileID: 124891158}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce8fffcba88f047a7bfbed4cc2c99b99, type: 3}
+--- !u!4 &124891158 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5642415535495409466, guid: ce8fffcba88f047a7bfbed4cc2c99b99, type: 3}
+  m_PrefabInstance: {fileID: 124717752}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &124891159 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5642415535495409467, guid: ce8fffcba88f047a7bfbed4cc2c99b99, type: 3}
+  m_PrefabInstance: {fileID: 124717752}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c911ffaffac44d04ae070e87c9ef202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &195296841 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1451257033820203041, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
@@ -445,6 +477,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &597014354 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5642415535043391733, guid: ce8fffcba88f047a7bfbed4cc2c99b99, type: 3}
+  m_PrefabInstance: {fileID: 124717752}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1086172482
 GameObject:
   m_ObjectHideFlags: 0
