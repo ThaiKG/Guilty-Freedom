@@ -9,14 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Terrain 2.0.unity
     guid: ed33282727836aa4d80abd1d2627c603
   - enabled: 1
-    path: Assets/Scenes/large village.unity
-    guid: 15cecb16b22ce194c876b26e2ced9ab9
+    path: Assets/Scenes/Level 1.unity
+    guid: 18dceab84627b471785f927ad588d465
   - enabled: 1
     path: Assets/Scenes/Maze.unity
     guid: f553fc68f325c254a8855d094a1c8742
   - enabled: 1
-    path: Assets/Scenes/Level 1.unity
-    guid: 18dceab84627b471785f927ad588d465
+    path: Assets/Scenes/Level 2.unity
+    guid: e3d995cd2ddbc4e39b4f88f50d6675c4
   - enabled: 1
     path: Assets/Scenes/Satan Scene.unity
     guid: 172ddf405276f9649b19bb7b988dfcaf
