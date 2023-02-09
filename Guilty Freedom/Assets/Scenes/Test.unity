@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 124891159}
+    - target: {fileID: 2118235388, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+      propertyPath: whatIsWall.m_Bits
+      value: 192
+      objectReference: {fileID: 0}
     - target: {fileID: 1451257034174835680, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -277,7 +281,7 @@ GameObject:
   - component: {fileID: 561804624}
   - component: {fileID: 561804623}
   - component: {fileID: 561804622}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -663,7 +667,7 @@ GameObject:
   - component: {fileID: 1856971406}
   - component: {fileID: 1856971405}
   - component: {fileID: 1856971404}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
