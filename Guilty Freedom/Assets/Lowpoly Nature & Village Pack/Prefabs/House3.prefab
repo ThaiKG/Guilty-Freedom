@@ -316,7 +316,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4300213266036686}
-  - component: {fileID: 64359244642368204}
+  - component: {fileID: 5846388153579606708}
   m_Layer: 0
   m_Name: House3
   m_TagString: Untagged
@@ -351,8 +351,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &64359244642368204
-MeshCollider:
+--- !u!65 &5846388153579606708
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -361,10 +361,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 9.057432, y: 8.169781, z: 16.467907}
+  m_Center: {x: -1.600781, y: 3.58489, z: -0.20184135}
 --- !u!1 &1522317658209550
 GameObject:
   m_ObjectHideFlags: 0
@@ -971,7 +970,7 @@ GameObject:
   - component: {fileID: 33258853761746002}
   - component: {fileID: 23211407555844646}
   - component: {fileID: 111903241419069151}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
