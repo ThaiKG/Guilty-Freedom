@@ -19,11 +19,18 @@ public class dialoguecontroller : MonoBehaviour
     void Update()
     {
         if (d1) {
-            dialogue.SetActive(true);
-            string[] temp = {"teddy gay", "ur mom gae", "hello"};
-            thing.lines = temp;
+            thing.idx = 0;
+            
             thing.textSpeed = 0.1f;
+            
+            
+            
+            string[] temp = {"You can use WASD to move", "Use the mouse to look around", "And you will not escape the plantation my slave"};
+            thing.lines = temp;
+            // thing.StartDialogue();
+            dialogue.SetActive(true);
             d1 = false;
+            
         }
     }
     void OnTriggerEnter(Collider other) {
