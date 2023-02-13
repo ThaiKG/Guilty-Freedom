@@ -40,12 +40,14 @@ public class Dialogue : MonoBehaviour
         }
     }
     void NextLine() {
+        Debug.Log(idx);
         if (idx < lines.Length - 1) {
             idx++;
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
         } else {
-          gameObject.SetActive(false);  
+            lines = null;
+            gameObject.SetActive(false);  
         }
     }
 }
