@@ -18,9 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2.unity
     guid: e3d995cd2ddbc4e39b4f88f50d6675c4
   - enabled: 1
-    path: Assets/Scenes/DO NOT CLICK.unity
-    guid: 172ddf405276f9649b19bb7b988dfcaf
+    path: Assets/Scenes/satan scene 2.unity
+    guid: 06b0a65003afdf04197d35c67372aedd
   - enabled: 1
-    path: Assets/Scenes/Test 1.unity
-    guid: 0715efdda73607b47977cb43d5c0954e
+    path: Assets/Scenes/Test.unity
+    guid: 31343a1fba9708d43bca6fab1f1046aa
   m_configObjects: {}

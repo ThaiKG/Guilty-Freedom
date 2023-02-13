@@ -21,8 +21,7 @@ public class nextScene : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("player"))
         {
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
