@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
     public int idx;
+    public bool done = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,7 +48,9 @@ public class Dialogue : MonoBehaviour
             StartCoroutine(TypeLine());
         } else {
             lines = null;
+            textComponent.text = "";
             gameObject.SetActive(false);  
+            done = true;
         }
     }
 }

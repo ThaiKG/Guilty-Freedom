@@ -8,6 +8,7 @@ TagManager:
   - player
   - npc1
   - bottom
+  - npc2
   layers:
   - Default
   - TransparentFX
