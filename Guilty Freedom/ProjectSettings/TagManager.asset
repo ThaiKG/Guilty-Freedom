@@ -9,6 +9,7 @@ TagManager:
   - npc1
   - bottom
   - npc2
+  - tree
   layers:
   - Default
   - TransparentFX
