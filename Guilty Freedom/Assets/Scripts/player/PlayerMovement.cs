@@ -37,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
 
     float horizontalInput;
     float verticalInput;
+    int sceneidx;
 
     Vector3 moveDirection;
 
@@ -60,6 +61,15 @@ public class PlayerMovement : MonoBehaviour
         rb.freezeRotation = true;
 
         readyToJump = true;
+
+        sceneidx = PlayerPrefs.GetInt("sceneIndex");
+
+        if (sceneidx != SceneManager.GetActiveScene().buildIndex)
+        {
+            sceneidx = SceneManager.GetActiveScene().buildIndex;
+            PlayerPrefs.SetInt("sceneIndex", sceneidx);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 
     private void Update()
