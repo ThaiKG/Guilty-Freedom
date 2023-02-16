@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.3587269, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -25775,7 +25775,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1451257034174835680, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.156
       objectReference: {fileID: 0}
     - target: {fileID: 1451257034174835680, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25816,6 +25816,18 @@ PrefabInstance:
     - target: {fileID: 1451257034174835681, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
       propertyPath: m_TagString
       value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451257034174835682, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+      propertyPath: walkSpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451257034174835682, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+      propertyPath: sprintSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451257034174835682, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+      propertyPath: wallrunSpeed
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
