@@ -10,13 +10,13 @@ EditorBuildSettings:
     guid: ed33282727836aa4d80abd1d2627c603
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
-    guid: 18dceab84627b471785f927ad588d465
+    guid: 988c1b2fabbbb4499a08bd2ffd75aca5
   - enabled: 1
     path: Assets/Scenes/Maze.unity
     guid: f553fc68f325c254a8855d094a1c8742
   - enabled: 1
     path: Assets/Scenes/Level 2.unity
-    guid: e3d995cd2ddbc4e39b4f88f50d6675c4
+    guid: 248cfe8b368e94a42b219a6116c7638c
   - enabled: 1
     path: Assets/Scenes/satan scene 2.unity
     guid: 06b0a65003afdf04197d35c67372aedd
