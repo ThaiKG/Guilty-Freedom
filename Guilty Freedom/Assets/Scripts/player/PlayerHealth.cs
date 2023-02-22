@@ -19,7 +19,7 @@ public class PlayerHealth : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Space)){
-            TakeDamage(20);
+            // TakeDamage(20);
         }
     }
 
