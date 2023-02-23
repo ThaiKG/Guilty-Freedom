@@ -22910,8 +22910,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1303774173}
   lines:
-  - 
-  textSpeed: 0.1
+  - 'Tutorial: Use WASD to move'
+  - 'Tutorial: Use the mouse to walk around'
+  - 'Tutorial: Walk up to NPCs to initiate dialogues for hints'
+  textSpeed: 0.05
   idx: 0
   done: 0
 --- !u!1 &952404132 stripped
@@ -23918,6 +23920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd8f3bc5a279e49b098f581345662403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tree: []
 --- !u!1001 &985833878
 PrefabInstance:
   m_ObjectHideFlags: 0
