@@ -5326,7 +5326,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000010294281890, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
       propertyPath: m_Name
-      value: LPN_Trees.016
+      value: tree3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010294281890, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
+      propertyPath: m_TagString
+      value: tree3
       objectReference: {fileID: 0}
     - target: {fileID: 4000011812508816, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
       propertyPath: m_RootOrder
@@ -5346,7 +5350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011812508816, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.018991709
+      value: -0.01899079
       objectReference: {fileID: 0}
     - target: {fileID: 4000011812508816, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5354,7 +5358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011812508816, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.15690105
+      value: -0.15690437
       objectReference: {fileID: 0}
     - target: {fileID: 4000011812508816, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
       propertyPath: m_LocalRotation.w
@@ -30290,6 +30294,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6ee3616f6dcba441bce7e01896f463e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &861356946 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1451257034174835681, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+  m_PrefabInstance: {fileID: 1586465725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &861356947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861356946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd8f3bc5a279e49b098f581345662403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tree:
+  - {fileID: 952274841}
+  - {fileID: 1238803192}
+  - {fileID: 1701983558}
 --- !u!1 &877228243 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1594879466734162, guid: c82411508e9628b4e9f629bf2800542f, type: 3}
@@ -30648,18 +30673,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011812508816, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
   m_PrefabInstance: {fileID: 1010299810}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &952274845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 952274841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd8f3bc5a279e49b098f581345662403, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!64 &952274846
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31176,7 +31189,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000010294281890, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
       propertyPath: m_Name
-      value: LPN_Trees.016
+      value: tree1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010294281890, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
+      propertyPath: m_TagString
+      value: tree1
       objectReference: {fileID: 0}
     - target: {fileID: 4000011812508816, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
       propertyPath: m_RootOrder
@@ -33294,18 +33311,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011812508816, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
   m_PrefabInstance: {fileID: 1825977967}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1238803196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1238803192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd8f3bc5a279e49b098f581345662403, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!64 &1238803197
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64979,18 +64984,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011812508816, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
   m_PrefabInstance: {fileID: 58593317}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1701983562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1701983558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd8f3bc5a279e49b098f581345662403, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!64 &1701983563
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -80341,7 +80334,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000010294281890, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
       propertyPath: m_Name
-      value: LPN_Trees.016
+      value: tree2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010294281890, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
+      propertyPath: m_TagString
+      value: tree2
       objectReference: {fileID: 0}
     - target: {fileID: 4000011812508816, guid: 6ab45b2e423c24fc1b59491911bd81de, type: 3}
       propertyPath: m_RootOrder

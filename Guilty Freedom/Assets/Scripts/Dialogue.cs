@@ -30,11 +30,12 @@ public class Dialogue : MonoBehaviour
             }
         }
     }
-    void StartDialogue() {
+    public void StartDialogue() {
         idx = 0;
         StartCoroutine(TypeLine());
     }
     IEnumerator TypeLine() {
+        //type out each character 1 by 1
         foreach(char c in lines[idx].ToCharArray()) {
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
