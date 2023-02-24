@@ -85,12 +85,18 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.R))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Reset();
         }
 
         MyInput();
         SpeedControl();
         StateHandler();
+    }
+
+    public static void Reset()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        nextScene.randidx();
     }
 
     private void FixedUpdate()

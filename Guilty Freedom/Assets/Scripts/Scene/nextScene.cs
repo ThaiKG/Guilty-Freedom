@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 public class nextScene : MonoBehaviour
 {
 
-    public GameObject[] tree;
-    private int rand;
-    private string treeidx;
+    public static GameObject[] tree;
+    private static int rand;
+    private static string treeidx;
 
-    void randidx()
+    public static void randidx()
     {
         rand = Random.Range(0, 3);
         treeidx = tree[rand].name;
