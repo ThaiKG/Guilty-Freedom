@@ -3,17 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class nextScene : MonoBehaviour
+public class tree : MonoBehaviour
 {
-
-    public static GameObject[] tree;
+    public static GameObject[] trees;
     private static int rand;
     private static string treeidx;
 
     public static void randidx()
     {
         rand = Random.Range(0, 3);
-        treeidx = tree[rand].name;
+        treeidx = trees[rand].name;
     }
 
     private void Update()
@@ -29,5 +28,4 @@ public class nextScene : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
-
 }
