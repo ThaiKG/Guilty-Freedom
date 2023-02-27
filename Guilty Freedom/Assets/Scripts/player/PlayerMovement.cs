@@ -96,7 +96,7 @@ public class PlayerMovement : MonoBehaviour
     public static void Reset()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        nextScene.randidx();
+        tree.randidx();
     }
 
     private void FixedUpdate()
