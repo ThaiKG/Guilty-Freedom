@@ -30312,6 +30312,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a20402041e24469e8a8bc7735ef94a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  setTrees:
+  - {fileID: 952274841}
+  - {fileID: 1238803192}
+  - {fileID: 1701983558}
 --- !u!1 &877228243 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1594879466734162, guid: c82411508e9628b4e9f629bf2800542f, type: 3}
