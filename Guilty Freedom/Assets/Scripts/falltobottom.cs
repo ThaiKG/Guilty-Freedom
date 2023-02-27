@@ -7,7 +7,7 @@ public class falltobottom : MonoBehaviour
 {
     void OnCollisionEnter(Collision other) {
         if (other.gameObject.CompareTag("player")) {
-            PlayerMovement.Reset();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }

@@ -5,24 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class tree : MonoBehaviour
 {
+    public GameObject[] setTrees;
     public static GameObject[] trees;
     private static int rand;
     private static string treeidx;
+
+    private void Start()
+    {
+        trees = setTrees;
+        randidx();
+    }
 
     public static void randidx()
     {
         rand = Random.Range(0, 3);
         treeidx = trees[rand].name;
-    }
-
-    private void Update()
-    {
         Debug.Log(rand);
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        randidx();
         if (collision.gameObject.CompareTag(treeidx))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
