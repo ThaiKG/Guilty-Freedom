@@ -4,13 +4,47 @@ using UnityEngine;
 
 public class NPCInteractable : MonoBehaviour
 {
+    [SerializeField] private string InteractText;
+    [SerializeField] private string[] dialogues;
     public GameObject dialogue;
-    private Dialogue thing;
+    private Dialogue dialogueComponent;
+
+    public bool isInteracting = false;
 
     void start(){
-        thing = dialogue.GetComponent<Dialogue>();
+        dialogueComponent = dialogue.GetComponent<Dialogue>();
+
+    }
+
+    void Update(){
+        try{
+            if(dialogueComponent.done){
+            isInteracting = false;
+            }
+        }catch{
+
+        }
+        
     }
     public void Interact(){
-        Debug.Log("Interact!");
+        
+        if(isInteracting == false){
+            isInteracting = true;
+            Debug.Log("Interact!");
+            dialogue.SetActive(true);
+            dialogueComponent = dialogue.GetComponent<Dialogue>();
+            dialogueComponent.lines = dialogues;
+            dialogueComponent.StartDialogue();
+            if (dialogueComponent.done) {
+                dialogueComponent.done = false;
+            }
+        } else{
+            Debug.Log("Cannot Interact");
+        }
+            
+    }
+
+    public string getInteractText(){
+        return InteractText;
     }
 }

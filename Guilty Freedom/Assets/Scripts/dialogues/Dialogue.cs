@@ -54,4 +54,5 @@ public class Dialogue : MonoBehaviour
             done = true;
         }
     }
+
 }
