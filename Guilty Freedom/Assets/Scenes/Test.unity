@@ -558,7 +558,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770673000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -39.8, y: 1.5, z: -20.6}
+  m_LocalPosition: {x: -28.4, y: 1.5, z: -25.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -578,7 +578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 770673007}
-  player: {fileID: 677272471}
+  setPlayer: {fileID: 677272471}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
@@ -591,7 +591,7 @@ MonoBehaviour:
   timeBetweenAttacks: 0.5
   projectile: {fileID: 2657625865324565839, guid: 8b619c2273fa4e1478003dbcbaf3223b, type: 3}
   sightRange: 20
-  attackRange: 12
+  attackRange: 8
   playerInSightRange: 0
   playerInAttackRange: 0
 --- !u!195 &770673007

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4603018383147938970}
   - component: {fileID: 4704935428313854621}
   - component: {fileID: -3052524910390974789}
+  - component: {fileID: -218345945843179122}
   m_Layer: 0
   m_Name: AxeEvolving3_3_2
   m_TagString: Untagged
@@ -112,6 +113,18 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6128290962694944492, guid: e6cafdbc73d682e4a8c2165e8464607a, type: 3}
+--- !u!114 &-218345945843179122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2657625865324565839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8bc45ae44c6b4d83a3806f499a46b09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
