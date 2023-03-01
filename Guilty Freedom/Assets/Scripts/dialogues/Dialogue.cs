@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
+    public TextMeshProUGUI labelTextComponent;
     public string[] lines;
     public float textSpeed;
     public int idx;
@@ -14,6 +15,7 @@ public class Dialogue : MonoBehaviour
     void Start()
     {
         textComponent.text = string.Empty;
+        labelTextComponent.text = "Tutorial";
         StartDialogue();
     }
 
@@ -54,5 +56,6 @@ public class Dialogue : MonoBehaviour
             done = true;
         }
     }
+
 
 }
