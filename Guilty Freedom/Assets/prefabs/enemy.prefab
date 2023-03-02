@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 5172576647938610912}
   m_Layer: 0
   m_Name: rert
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,8 +179,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191070435460549446}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.151, y: 0.4062, z: 0.02}
-  m_LocalScale: {x: 1, y: 0.1876, z: 0.5783597}
+  m_LocalPosition: {x: 0.029, y: 0.577, z: 0.313}
+  m_LocalScale: {x: 0.58905417, y: 0.1876, z: 0.5783597}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 279075115284389722}
@@ -214,7 +214,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ff8952fef108b4649b5083187a0ba5d7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

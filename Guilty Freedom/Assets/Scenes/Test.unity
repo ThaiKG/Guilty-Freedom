@@ -836,29 +836,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: enemy
       objectReference: {fileID: 0}
-    - target: {fileID: 1191070435460549446, guid: 583320eeb85494fb9a6a13a0db00476a, type: 3}
-      propertyPath: m_TagString
-      value: enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 2446010631016611781, guid: 583320eeb85494fb9a6a13a0db00476a, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ff8952fef108b4649b5083187a0ba5d7, type: 2}
-    - target: {fileID: 6960914875334556308, guid: 583320eeb85494fb9a6a13a0db00476a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.58905417
-      objectReference: {fileID: 0}
-    - target: {fileID: 6960914875334556308, guid: 583320eeb85494fb9a6a13a0db00476a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.029
-      objectReference: {fileID: 0}
-    - target: {fileID: 6960914875334556308, guid: 583320eeb85494fb9a6a13a0db00476a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.577
-      objectReference: {fileID: 0}
-    - target: {fileID: 6960914875334556308, guid: 583320eeb85494fb9a6a13a0db00476a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.313
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 583320eeb85494fb9a6a13a0db00476a, type: 3}
