@@ -12,6 +12,7 @@ TagManager:
   - tree1
   - tree2
   - tree3
+  - enemy
   layers:
   - Default
   - TransparentFX
