@@ -5,7 +5,13 @@ using UnityEngine;
 public class asProjectile : MonoBehaviour
 {
 
-    public PlayerHealth damage;
+    private PlayerHealth damage;
+    public GameObject player;
+
+    private void Start()
+    {
+        damage = player.GetComponent<PlayerHealth>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -19,7 +25,7 @@ public class asProjectile : MonoBehaviour
     {
         if (other.gameObject.CompareTag("player"))
         {
-            damage.TakeDamage(10);
+            damage.TakeDamage(5);
         }
 
         if (!other.gameObject.CompareTag("enemy"))

@@ -135,6 +135,14 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 966389947, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 419899469}
+    - target: {fileID: 966389947, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 966389947, guid: 3434ebdc375e846b092f93eac629b576, type: 3}
       propertyPath: setHealthBar
       value: 
       objectReference: {fileID: 419899469}
