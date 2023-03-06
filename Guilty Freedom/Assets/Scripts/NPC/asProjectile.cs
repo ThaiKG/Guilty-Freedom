@@ -14,6 +14,11 @@ public class asProjectile : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.CompareTag("player"))
+        {
+            PlayerHealth.TakeDamage(10);
+        }
+
         if (!other.gameObject.CompareTag("enemy"))
         {
             Destroy(gameObject);
