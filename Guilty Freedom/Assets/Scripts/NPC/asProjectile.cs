@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class asProjectile : MonoBehaviour
 {
+
+    public PlayerHealth damage;
+
     // Update is called once per frame
     void Update()
     {
@@ -16,7 +19,7 @@ public class asProjectile : MonoBehaviour
     {
         if (other.gameObject.CompareTag("player"))
         {
-            PlayerHealth.TakeDamage(10);
+            damage.TakeDamage(10);
         }
 
         if (!other.gameObject.CompareTag("enemy"))
