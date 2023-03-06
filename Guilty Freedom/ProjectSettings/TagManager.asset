@@ -13,6 +13,8 @@ TagManager:
   - tree2
   - tree3
   - enemy
+  - tree
+  - portal
   layers:
   - Default
   - TransparentFX

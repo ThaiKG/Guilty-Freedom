@@ -9,6 +9,7 @@ public class tree : MonoBehaviour
     public static GameObject[] trees;
     private static int rand;
     private static string treeidx;
+    public static GameObject player;
 
     private void Start()
     {
@@ -27,6 +28,8 @@ public class tree : MonoBehaviour
     {
         if (collision.gameObject.CompareTag(treeidx))
         {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        } else if (PlayerPrefs.GetInt("tree") == 1 && (collision.gameObject.CompareTag("tree1") || collision.gameObject.CompareTag("tree2") || collision.gameObject.CompareTag("tree3"))) {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
