@@ -16,6 +16,7 @@ TagManager:
   - tree
   - portal
   - treasure
+  - axe
   layers:
   - Default
   - TransparentFX
