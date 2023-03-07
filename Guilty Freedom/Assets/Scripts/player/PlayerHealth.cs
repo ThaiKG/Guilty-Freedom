@@ -13,6 +13,7 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+        healthBar = GetComponent<HealthBar>();
         healthBar.SetMaxHealth(maxHealth);
     }
 
@@ -20,4 +21,13 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
     }
+
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.Space))
+        {
+            TakeDamage(5);
+        }
+    }
+
 }
