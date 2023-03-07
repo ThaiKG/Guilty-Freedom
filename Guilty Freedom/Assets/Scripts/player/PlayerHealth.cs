@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public int currentHealth;
 
     public HealthBar healthBar;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,10 +25,13 @@ public class PlayerHealth : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+
+        if (currentHealth < 0)
         {
-            TakeDamage(5);
+            currentHealth = 0;
         }
+
+        Debug.Log(currentHealth);
     }
 
 }
