@@ -17,6 +17,14 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log(healthBar);
     }
 
+    private void Update()
+    {
+        if (currentHealth >= 0)
+        {
+            PlayerMovement.Reset();
+        }
+    }
+
     public void TakeDamage(int damage){
         currentHealth -= damage;
         Debug.Log(healthBar);
