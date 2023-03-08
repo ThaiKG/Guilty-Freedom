@@ -11,7 +11,7 @@ public class SummonInteractable : MonoBehaviour, IInteractable
 
     public void Interact(Transform interactorTransform)
     {
-        
+        //start cutscene
     }
 
     public Transform GetTransform(){
