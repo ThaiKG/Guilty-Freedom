@@ -23,11 +23,6 @@ public class asProjectile : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("player"))
-        {
-            damage.TakeDamage(5);
-        }
-
         if (!other.gameObject.CompareTag("enemy"))
         {
             Destroy(gameObject);
