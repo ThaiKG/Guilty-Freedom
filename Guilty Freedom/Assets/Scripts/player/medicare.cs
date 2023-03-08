@@ -10,9 +10,6 @@ public class medicare : MonoBehaviour
     {
         tree = false;
     }
-    void Update() {
-        Debug.Log(tree);
-    }
 
     // Update is called once per frame
     private void OnCollisionEnter(Collision other) {

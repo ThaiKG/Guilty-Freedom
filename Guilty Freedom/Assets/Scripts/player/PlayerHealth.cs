@@ -23,19 +23,11 @@ public class PlayerHealth : MonoBehaviour
         healthBar.SetHealth(currentHealth);
     }
 
-    private void Update()
-    {
-        // if (Input.GetKey(KeyCode.Space))
-        // {
-        //     TakeDamage(5);
-        // }
-        
-    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("axe"))
         {
-            currentHealth = 0;
+            TakeDamage(5);
         }
 
     }
