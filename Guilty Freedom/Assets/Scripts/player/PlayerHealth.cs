@@ -9,6 +9,8 @@ public class PlayerHealth : MonoBehaviour
     public int currentHealth;
     public HealthBar healthBar;
 
+    private int cnt;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +22,11 @@ public class PlayerHealth : MonoBehaviour
 
     private void Update()
     {
-        if (currentHealth <= 0)
+        if (currentHealth <= 0 && cnt == 2)
+        {
+            SceneManager.LoadScene(6);
+        }
+        else if (currentHealth <= 0)
         {
             PlayerMovement.Reset();
         }
@@ -41,11 +47,8 @@ public class PlayerHealth : MonoBehaviour
 
         if (other.gameObject.CompareTag("obstacles"))
         {
+            cnt++;
             TakeDamage(50);
-            if (currentHealth <= 0)
-            {
-                SceneManager.LoadScene(6);
-            }
         }
 
     }
