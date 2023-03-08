@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class NPCInteractable : MonoBehaviour
+public class NPCInteractable : MonoBehaviour, IInteractable
 {
     [SerializeField] private string InteractText;
     [SerializeField] private string[] dialogues;
@@ -31,7 +31,7 @@ public class NPCInteractable : MonoBehaviour
         }
         
     }
-    public void Interact(){
+    public void Interact(Transform interactorTransform){
         
         if(isInteracting == false){
             isInteracting = true;
@@ -52,5 +52,9 @@ public class NPCInteractable : MonoBehaviour
 
     public string getInteractText(){
         return InteractText;
+    }
+
+    public Transform GetTransform(){
+        return transform;
     }
 }
