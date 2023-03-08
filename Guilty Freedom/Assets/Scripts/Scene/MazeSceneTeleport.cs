@@ -17,7 +17,7 @@ public class MazeSceneTeleport : MonoBehaviour
         
     }
     private void OnCollisionEnter(Collision collision) {
-        if (collision.gameObject.CompareTag("player") && player.GetComponent<PlayerCollectableCounter>().count == 8) {
+        if (collision.gameObject.CompareTag("player") && player.GetComponent<PlayerCollectableCounter>().count >= 6) {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
