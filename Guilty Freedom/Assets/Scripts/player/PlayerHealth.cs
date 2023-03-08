@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -36,6 +37,15 @@ public class PlayerHealth : MonoBehaviour
         if (other.gameObject.CompareTag("axe"))
         {
             TakeDamage(5);
+        }
+
+        if (other.gameObject.CompareTag("obstacles"))
+        {
+            TakeDamage(50);
+            if (currentHealth <= 0)
+            {
+                SceneManager.LoadScene(6);
+            }
         }
 
     }
