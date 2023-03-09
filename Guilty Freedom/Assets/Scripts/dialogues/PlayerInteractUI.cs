@@ -18,9 +18,9 @@ public class PlayerInteractUI : MonoBehaviour
             Hide();
         }
     }
-    private void Show(NPCInteractable npcInteractable){
+    private void Show(IInteractable interactable){
         containerGameObject.SetActive(true);
-        interactableText.text = npcInteractable.getInteractText();
+        interactableText.text = interactable.getInteractText();
     }
 
     private void Hide(){

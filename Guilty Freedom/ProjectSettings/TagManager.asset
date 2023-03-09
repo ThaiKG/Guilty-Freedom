@@ -17,6 +17,7 @@ TagManager:
   - portal
   - treasure
   - axe
+  - obstacles
   layers:
   - Default
   - TransparentFX
