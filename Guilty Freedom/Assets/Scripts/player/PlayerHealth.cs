@@ -22,7 +22,7 @@ public class PlayerHealth : MonoBehaviour
             SceneManager.LoadScene(6);
         }
 
-        if (PlayerPrefs.GetInt("health", currentHealth) > 0)
+        if (PlayerPrefs.GetInt("health", currentHealth) > 0 && SceneManager.GetActiveScene().buildIndex == 3)
         {
             currentHealth = PlayerPrefs.GetInt("health");
         }
