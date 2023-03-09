@@ -21617,7 +21617,6 @@ GameObject:
   - component: {fileID: 896646480}
   - component: {fileID: 896646479}
   - component: {fileID: 896646478}
-  - component: {fileID: 896646477}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: obstacles
@@ -21640,18 +21639,6 @@ Transform:
   m_Father: {fileID: 684079799}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &896646477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896646475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d72e0b46a5289ba43bc20dcb8811c51a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &896646478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21674,7 +21661,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896646475}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.4, y: 1.4, z: 1.4}
@@ -22752,7 +22739,6 @@ GameObject:
   - component: {fileID: 1097905121}
   - component: {fileID: 1097905120}
   - component: {fileID: 1097905119}
-  - component: {fileID: 1097905118}
   m_Layer: 0
   m_Name: Cube
   m_TagString: obstacles
@@ -22775,18 +22761,6 @@ Transform:
   m_Father: {fileID: 684079799}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1097905118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1097905116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d72e0b46a5289ba43bc20dcb8811c51a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1097905119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22809,7 +22783,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097905116}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.4, y: 1.4, z: 1.4}
@@ -23112,7 +23086,6 @@ GameObject:
   - component: {fileID: 1163314965}
   - component: {fileID: 1163314964}
   - component: {fileID: 1163314963}
-  - component: {fileID: 1163314962}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: obstacles
@@ -23135,18 +23108,6 @@ Transform:
   m_Father: {fileID: 684079799}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1163314962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1163314960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d72e0b46a5289ba43bc20dcb8811c51a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1163314963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23169,7 +23130,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163314960}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.4, y: 1.4, z: 1.4}
@@ -28220,7 +28181,6 @@ GameObject:
   - component: {fileID: 1420690645}
   - component: {fileID: 1420690644}
   - component: {fileID: 1420690643}
-  - component: {fileID: 1420690642}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: obstacles
@@ -28243,18 +28203,6 @@ Transform:
   m_Father: {fileID: 684079799}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1420690642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420690640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d72e0b46a5289ba43bc20dcb8811c51a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1420690643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28277,7 +28225,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1420690640}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.4, y: 1.4, z: 1.4}

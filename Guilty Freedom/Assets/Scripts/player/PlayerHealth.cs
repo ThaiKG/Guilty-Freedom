@@ -22,7 +22,7 @@ public class PlayerHealth : MonoBehaviour
             SceneManager.LoadScene(6);
         }
 
-        if (PlayerPrefs.GetInt("health", currentHealth) > 0)
+        if (PlayerPrefs.GetInt("health", currentHealth) > 0 && SceneManager.GetActiveScene().buildIndex == 3)
         {
             currentHealth = PlayerPrefs.GetInt("health");
         }
@@ -31,9 +31,12 @@ public class PlayerHealth : MonoBehaviour
             currentHealth = maxHealth;
             PlayerPrefs.SetInt("health", 100);
         }
-        // healthBar = GetComponent<HealthBar>();
+
         healthBar.SetMaxHealth(maxHealth);
+        healthBar.SetHealth(currentHealth);
+
         Debug.Log(currentHealth);
+        Debug.Log(cnt);
     }
 
     private void Update()
@@ -59,7 +62,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (other.gameObject.CompareTag("obstacles"))
         {
-            cnt++;
+            cnt += 1;
             TakeDamage(50);
             PlayerPrefs.SetInt("health", currentHealth);
             PlayerPrefs.SetInt("cnt", cnt);
