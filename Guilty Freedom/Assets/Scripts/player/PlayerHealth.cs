@@ -14,19 +14,31 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentHealth = maxHealth;
+        cnt = PlayerPrefs.GetInt("cnt");
+
+        if (cnt == 2)
+        {
+            PlayerPrefs.SetInt("cnt", 0);
+            SceneManager.LoadScene(6);
+        }
+
+        if (PlayerPrefs.GetInt("health", currentHealth) > 0)
+        {
+            currentHealth = PlayerPrefs.GetInt("health");
+        }
+        else
+        {
+            currentHealth = maxHealth;
+            PlayerPrefs.SetInt("health", 100);
+        }
         // healthBar = GetComponent<HealthBar>();
         healthBar.SetMaxHealth(maxHealth);
-        Debug.Log(healthBar);
+        Debug.Log(currentHealth);
     }
 
     private void Update()
     {
-        if (currentHealth <= 0 && cnt == 2)
-        {
-            SceneManager.LoadScene(6);
-        }
-        else if (currentHealth <= 0)
+        if (currentHealth <= 0)
         {
             PlayerMovement.Reset();
         }
@@ -49,6 +61,9 @@ public class PlayerHealth : MonoBehaviour
         {
             cnt++;
             TakeDamage(50);
+            PlayerPrefs.SetInt("health", currentHealth);
+            PlayerPrefs.SetInt("cnt", cnt);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
     }
