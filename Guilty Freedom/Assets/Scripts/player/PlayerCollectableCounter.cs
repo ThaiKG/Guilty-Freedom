@@ -16,7 +16,7 @@ public class PlayerCollectableCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        collect.text = "Treasures needed: " + score + "/6";
+        collect.text = "Treasures needed: " + count + "/6";
     }
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.tag == "treasure") {
