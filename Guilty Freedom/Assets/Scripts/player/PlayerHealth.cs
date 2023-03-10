@@ -19,7 +19,7 @@ public class PlayerHealth : MonoBehaviour
         if (cnt == 2)
         {
             PlayerPrefs.SetInt("cnt", 0);
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(7);
         }
 
         if (PlayerPrefs.GetInt("health", currentHealth) > 0 && SceneManager.GetActiveScene().buildIndex == 4)
