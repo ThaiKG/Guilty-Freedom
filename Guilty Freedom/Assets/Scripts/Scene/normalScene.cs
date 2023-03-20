@@ -9,8 +9,13 @@ public class normalScene : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            nextScene();
         }
+    }
+
+    public void nextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 }
