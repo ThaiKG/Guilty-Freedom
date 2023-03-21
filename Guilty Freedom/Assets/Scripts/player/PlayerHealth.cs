@@ -64,6 +64,7 @@ public class PlayerHealth : MonoBehaviour
         if (other.gameObject.CompareTag("floor"))
         {
             TakeDamage(20);
+            PlayerPrefs.SetInt("health", currentHealth);
         }
 
         if (other.gameObject.CompareTag("obstacles"))
