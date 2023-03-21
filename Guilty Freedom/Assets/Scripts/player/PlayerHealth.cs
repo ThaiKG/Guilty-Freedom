@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,22 +15,23 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //PlayerPrefs.DeleteAll();
+
         cnt = PlayerPrefs.GetInt("cnt");
 
-        if (cnt == 2)
+        if (cnt == 2 || (PlayerPrefs.GetInt("health", currentHealth) == 0 && SceneManager.GetActiveScene().buildIndex == 4))
         {
-            PlayerPrefs.SetInt("cnt", 0);
+            PlayerPrefs.DeleteAll();
             SceneManager.LoadScene(7);
         }
-
-        if (PlayerPrefs.GetInt("health", currentHealth) > 0 && SceneManager.GetActiveScene().buildIndex == 4)
+        else if (PlayerPrefs.GetInt("health", currentHealth) >= 0)
         {
             currentHealth = PlayerPrefs.GetInt("health");
         }
         else
         {
             currentHealth = maxHealth;
-            PlayerPrefs.SetInt("health", 100);
+            PlayerPrefs.SetInt("health", maxHealth);
         }
 
         healthBar.SetMaxHealth(maxHealth);
@@ -49,7 +51,6 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int damage){
         currentHealth -= damage;
-        Debug.Log(healthBar);
         healthBar.SetHealth(currentHealth);
     }
 
@@ -58,6 +59,11 @@ public class PlayerHealth : MonoBehaviour
         if (other.gameObject.CompareTag("axe"))
         {
             TakeDamage(5);
+        }
+
+        if (other.gameObject.CompareTag("floor"))
+        {
+            TakeDamage(20);
         }
 
         if (other.gameObject.CompareTag("obstacles"))

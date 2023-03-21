@@ -7,9 +7,13 @@ public class normalScene : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("player"))
+        if (collision.gameObject.CompareTag("player") && Random.Range(0, 9) != 0)
         {
             nextScene();
+        }
+        else
+        {
+            SceneManager.LoadScene(7);
         }
     }
 

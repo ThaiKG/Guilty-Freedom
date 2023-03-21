@@ -95,6 +95,7 @@ public class PlayerMovement : MonoBehaviour
 
     public static void Reset()
     {
+        PlayerPrefs.SetInt("health", 100);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         tree.randidx();
     }
