@@ -18,6 +18,7 @@ TagManager:
   - treasure
   - axe
   - obstacles
+  - floor
   layers:
   - Default
   - TransparentFX
