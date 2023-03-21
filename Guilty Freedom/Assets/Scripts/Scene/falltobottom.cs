@@ -13,9 +13,20 @@ public class falltobottom : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("player"))
+        if (other.gameObject.CompareTag("player") && SceneManager.GetActiveScene().buildIndex != 4)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+        else if (SceneManager.GetActiveScene().buildIndex == 4)
+        {
+            waiter();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
+
+    IEnumerator waiter()
+    {
+        yield return new WaitForSeconds(0.3f);
+    }
+
 }

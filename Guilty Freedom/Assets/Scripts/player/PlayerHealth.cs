@@ -19,7 +19,7 @@ public class PlayerHealth : MonoBehaviour
 
         cnt = PlayerPrefs.GetInt("cnt");
 
-        if (cnt == 2)
+        if (cnt == 2 || (PlayerPrefs.GetInt("health", currentHealth) == 0 && SceneManager.GetActiveScene().buildIndex == 4))
         {
             PlayerPrefs.DeleteAll();
             SceneManager.LoadScene(7);
@@ -59,6 +59,11 @@ public class PlayerHealth : MonoBehaviour
         if (other.gameObject.CompareTag("axe"))
         {
             TakeDamage(5);
+        }
+
+        if (other.gameObject.CompareTag("floor"))
+        {
+            TakeDamage(20);
         }
 
         if (other.gameObject.CompareTag("obstacles"))
