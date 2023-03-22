@@ -47,10 +47,10 @@ public class PlayerHealth : MonoBehaviour
         {
             PlayerMovement.Reset();
         }
-        else if (currentHealth <= 0 && SceneManager.GetActiveScene().buildIndex == 4)
+        else if (SceneManager.GetActiveScene().buildIndex == 4 && currentHealth <= 0)
         {
-            PlayerPrefs.DeleteAll();
-            SceneManager.LoadScene(7);
+            PlayerPrefs.SetInt("cnt", 2);
+            PlayerMovement.Reset();
         }
     }
 
@@ -81,6 +81,11 @@ public class PlayerHealth : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
+    }
+
+    IEnumerator waiter(float time)
+    {
+        yield return new WaitForSeconds(time);
     }
 
 }
