@@ -22,4 +22,9 @@ public class normalScene : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void setting()
+    {
+        SceneManager.LoadScene(8);
+    }
+
 }
