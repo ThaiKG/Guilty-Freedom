@@ -19,7 +19,7 @@ public class PlayerHealth : MonoBehaviour
 
         cnt = PlayerPrefs.GetInt("cnt");
 
-        if (cnt == 2 || (PlayerPrefs.GetInt("health", currentHealth) == 0 && SceneManager.GetActiveScene().buildIndex == 4))
+        if (cnt == 2)
         {
             PlayerPrefs.DeleteAll();
             SceneManager.LoadScene(7);
@@ -43,9 +43,14 @@ public class PlayerHealth : MonoBehaviour
 
     private void Update()
     {
-        if (currentHealth <= 0)
+        if (currentHealth <= 0 && SceneManager.GetActiveScene().buildIndex != 4)
         {
             PlayerMovement.Reset();
+        }
+        else if (currentHealth <= 0 && SceneManager.GetActiveScene().buildIndex == 4)
+        {
+            PlayerPrefs.DeleteAll();
+            SceneManager.LoadScene(7);
         }
     }
 
