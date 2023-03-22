@@ -31,4 +31,7 @@ public class setting : MonoBehaviour
     public void OnHome() {
         SceneManager.LoadScene(0);
     }
+    public void OnGame() {
+        SceneManager.LoadScene(1);
+    }
 }
