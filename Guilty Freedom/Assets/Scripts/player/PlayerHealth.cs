@@ -24,12 +24,13 @@ public class PlayerHealth : MonoBehaviour
             PlayerPrefs.DeleteAll();
             SceneManager.LoadScene(7);
         }
-        else if (PlayerPrefs.GetInt("health", currentHealth) >= 0)
+        else if (PlayerPrefs.GetInt("health", currentHealth) >= 0 && SceneManager.GetActiveScene().buildIndex == 4)
         {
             currentHealth = PlayerPrefs.GetInt("health");
         }
         else
         {
+            PlayerPrefs.DeleteAll();
             currentHealth = maxHealth;
             PlayerPrefs.SetInt("health", maxHealth);
         }
