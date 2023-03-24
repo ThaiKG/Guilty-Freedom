@@ -19,6 +19,7 @@ TagManager:
   - axe
   - obstacles
   - floor
+  - music
   layers:
   - Default
   - TransparentFX
