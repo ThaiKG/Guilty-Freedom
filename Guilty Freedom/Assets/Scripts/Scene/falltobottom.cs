@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class falltobottom : MonoBehaviour
 {
-    public AudioSource OOF;
+    //public AudioSource OOF;
     void Start() {
-        OOF = GetComponent<AudioSource>();
+        //OOF = GetComponent<AudioSource>();
     }
     void OnCollisionEnter(Collision other) {
         if (other.gameObject.CompareTag("player")) {
-            OOF.Play();
-            Debug.Log(OOF);
+            //OOF.Play();
+            //Debug.Log(OOF);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); 
             Debug.Log(1);
         }
@@ -22,7 +22,7 @@ public class falltobottom : MonoBehaviour
     {
         if (other.gameObject.CompareTag("player") && SceneManager.GetActiveScene().buildIndex != 4)
         {
-            OOF.Play();
+            //OOF.Play();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             Debug.Log(2);
             
@@ -30,7 +30,8 @@ public class falltobottom : MonoBehaviour
         }
         else if (SceneManager.GetActiveScene().buildIndex == 4)
         {
-            OOF.Play();
+            //OOF.Play();
+            waiter();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             Debug.Log(3);
             
