@@ -30,7 +30,6 @@ public class falltobottom : MonoBehaviour
         }
         else if (SceneManager.GetActiveScene().buildIndex == 4)
         {
-            waiter();
             OOF.Play();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             Debug.Log(3);
