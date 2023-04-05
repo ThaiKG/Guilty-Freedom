@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
     public HealthBar healthBar;
+    public AudioSource OOF;
 
     private int cnt;
 
@@ -45,10 +46,12 @@ public class PlayerHealth : MonoBehaviour
     {
         if (currentHealth <= 0 && SceneManager.GetActiveScene().buildIndex != 4)
         {
+            OOF.Play();
             PlayerMovement.Reset();
         }
         else if (SceneManager.GetActiveScene().buildIndex == 4 && currentHealth <= 0)
         {
+            OOF.Play();
             PlayerPrefs.SetInt("cnt", 2);
             PlayerMovement.Reset();
         }

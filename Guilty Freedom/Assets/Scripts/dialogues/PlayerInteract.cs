@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerInteract : MonoBehaviour
 {
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,7 @@ public class PlayerInteract : MonoBehaviour
     }
 
     public IInteractable GetInteractableObject(){
+        
         List<IInteractable> interactableList = new List<IInteractable>();
         float interactRange = 3f;
             Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
