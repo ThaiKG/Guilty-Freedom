@@ -7022,63 +7022,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14fad3c49382e8c47a5d23456ee580b5, type: 3}
---- !u!1001 &866344162
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 30a706dc7beb4db4e8f7d6d18523ff29, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 30a706dc7beb4db4e8f7d6d18523ff29, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 18.195623
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 30a706dc7beb4db4e8f7d6d18523ff29, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.9938947
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 30a706dc7beb4db4e8f7d6d18523ff29, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 61.97716
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 30a706dc7beb4db4e8f7d6d18523ff29, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 30a706dc7beb4db4e8f7d6d18523ff29, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 30a706dc7beb4db4e8f7d6d18523ff29, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 30a706dc7beb4db4e8f7d6d18523ff29, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 30a706dc7beb4db4e8f7d6d18523ff29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 30a706dc7beb4db4e8f7d6d18523ff29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 30a706dc7beb4db4e8f7d6d18523ff29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 30a706dc7beb4db4e8f7d6d18523ff29, type: 3}
-      propertyPath: m_Name
-      value: Warrok W Kurniawan
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 30a706dc7beb4db4e8f7d6d18523ff29, type: 3}
 --- !u!1 &877714894
 GameObject:
   m_ObjectHideFlags: 0
@@ -8482,8 +8425,6 @@ PlayableDirector:
     value: {fileID: 5642415534386467663}
   - key: {fileID: 5605209426976330692, guid: 19175e1801b47954c8308ec713b96faa, type: 2}
     value: {fileID: 950231076}
-  - key: {fileID: 5704186762764830932, guid: 19175e1801b47954c8308ec713b96faa, type: 2}
-    value: {fileID: 0}
   - key: {fileID: -171646468214361965, guid: 19175e1801b47954c8308ec713b96faa, type: 2}
     value: {fileID: 888521385}
   - key: {fileID: -7608917628248759454, guid: 19175e1801b47954c8308ec713b96faa, type: 2}
@@ -10295,6 +10236,75 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b52be39fb4004740ae5ecb7ff75d5f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1968699515
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.04
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.99389434
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 56.45
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6748822
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7379255
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -95.11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
+      propertyPath: m_Name
+      value: Warrok W Kurniawan (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 177a4a1f6d41d3a48a37ddba3264c4fc, type: 3}
 --- !u!1 &1974807746 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 14fad3c49382e8c47a5d23456ee580b5, type: 3}
