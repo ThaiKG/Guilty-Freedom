@@ -69,7 +69,7 @@ public class PlayerHealth : MonoBehaviour
             TakeDamage(5);
         }
 
-        if (other.gameObject.CompareTag("floor"))
+        if (other.gameObject.CompareTag("floor") && SceneManager.GetActiveScene().buildIndex == 4)
         {
             TakeDamage(20);
             PlayerPrefs.SetInt("health", currentHealth);
