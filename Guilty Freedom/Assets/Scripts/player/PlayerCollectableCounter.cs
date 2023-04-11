@@ -8,6 +8,7 @@ public class PlayerCollectableCounter : MonoBehaviour
     // Start is called before the first frame update
     public int count;
     public TextMeshProUGUI collect;
+    public AudioSource ding;
     void Start()
     {
         count = 0;
@@ -20,6 +21,7 @@ public class PlayerCollectableCounter : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.tag == "treasure") {
+            ding.Play();
             count++;
         }
     }
